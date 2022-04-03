@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from 'axios';
+import Coins from "./components/Coins";
 
 
 function App() {
@@ -18,9 +19,9 @@ function App() {
 
 
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Coins coins={coins} />
+    </>
   );
 }
 
