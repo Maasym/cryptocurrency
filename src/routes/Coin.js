@@ -70,17 +70,17 @@ const Coin = () => {
                         <div className='left'>
                             <div className='row'>
                                 <h4>24 Hour Low</h4>
-                                {coin.market_data?.low_24h ? <p>${coin.market_data.low_24h.eur.toLocaleString()}</p> : null}
+                                {coin.market_data?.low_24h ? <p>€{coin.market_data.low_24h.eur.toLocaleString()}</p> : null}
                             </div>
                             <div className='row'>
                                 <h4>24 Hour High</h4>
-                                {coin.market_data?.high_24h ? <p>${coin.market_data.high_24h.eur.toLocaleString()}</p> : null}                            </div>
+                                {coin.market_data?.high_24h ? <p>€{coin.market_data.high_24h.eur.toLocaleString()}</p> : null}                            </div>
 
                         </div>
                         <div className='right'>
                             <div className='row'>
                                 <h4>Market Cap</h4>
-                                {coin.market_data?.market_cap ? <p>${coin.market_data.market_cap.eur.toLocaleString()}</p> : null}
+                                {coin.market_data?.market_cap ? <p>€{coin.market_data.market_cap.eur.toLocaleString()}</p> : null}
                             </div>
                             <div className='row'>
                                 <h4>Circulating Supply</h4>
