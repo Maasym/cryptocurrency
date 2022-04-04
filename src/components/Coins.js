@@ -22,7 +22,6 @@ const Coins = (props) => {
                         <Link to={`/coin/${coins.id}`} element={<Coin />} key={coins.id}>
                             <CoinItem coins={coins}  />
                         </Link>
-
                     )
                 })}
 
